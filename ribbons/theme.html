@@ -1,0 +1,258 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<!-- Ribbons_V Theme from www.aphexthemes.com -->
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="description" content="<{$xoops_meta_description}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="XOOPS" />
+<title><{$xoops_sitename}> - <{$xoops_pagetitle}></title>
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_url}>/xoops.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_themecss}>" />
+<{$xoops_module_header}>
+<!-- jQuery starts here -->
+<script type="text/javascript" src="<{$xoops_imageurl}>js/jquery-1.2.3.js"></script>
+<script type="text/javascript" src="<{$xoops_imageurl}>js/jquery.slidepanel.js"></script>
+<script type="text/javascript">$(document).ready(function(){$('.slide').slidePanel({	target:'.target'	});   
+
+	});   		 </script>
+<!-- jQuery ends here -->
+<!-- RMV: added module header -->
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+<script type="text/javascript">
+
+<!--//
+
+//pre loader starts here (you can add as many images as you wish)
+
+newimage0 = new Image();
+
+newimage0.src = "<{xoImgUrl visual/ribbons-h_02.jpg}>";
+
+newimage1 = new Image();
+
+newimage1.src = "<{xoImgUrl visual/ribbons-h_03.jpg}>";
+
+newimage2 = new Image();
+
+newimage2.src = "<{xoImgUrl visual/ribbons-h_04.jpg}>";
+
+newimage3 = new Image();
+
+newimage3.src = "<{xoImgUrl visual/ribbons-h_05.jpg}>";
+
+newimage4 = new Image();
+
+newimage4.src = "<{xoImgUrl visual/ribbons-h_06.jpg}>";
+
+newimage5 = new Image();
+
+newimage5.src = "<{xoImgUrl visual/ribbons-h_07.jpg}>";
+
+
+//preloaded ends here 
+
+//-->
+
+</script>
+</head>
+<body>
+  		<table class="toptable" cellspacing="0">
+    		<tr>
+      		<td id="headerlogo">
+<div class="ribbons">
+	<div class="ribbons-01_">
+		<img id="ribbons_01" src="<{$xoops_imageurl}>visual/ribbons_01.png" width="11" height="34" alt="" />
+	</div>
+	<div class="ribbons-02_">
+<a id="b1" href="<{$xoops_url}>/">Home</a>
+	</div>
+	<div class="ribbons-03_">
+<a id="b2" href="<{$xoops_url}>/">Link 2</a>
+	</div>
+	<div class="ribbons-04_">
+<a id="b3" href="<{$xoops_url}>/">Link 3</a>
+	</div>
+	<div class="ribbons-05_">
+<a id="b4" href="<{$xoops_url}>/">Link 4</a>
+	</div>
+	<div class="ribbons-06_">
+<a id="b5" href="<{$xoops_url}>/">Link 5</a>
+	</div>
+	<div class="ribbons-07_">
+<a id="b6" href="<{$xoops_url}>/">Link 6</a>
+	</div>
+	<div class="ribbons-08_">
+		<img id="ribbons_08" src="<{$xoops_imageurl}>visual/ribbons_08.jpg" width="69" height="34" alt="" />
+	</div>
+	<div class="ribbons-09_">
+<div class="tsearch">
+<form style="margin-top: 0px;" action="<{$xoops_site}>/search.php" method="get">
+  <input type="text" name="query" size="20" /><input type="hidden" name="action" value="results" />&nbsp;&nbsp;<input type="submit" value="Search" />
+</form>
+</div>
+	</div>
+	<div class="ribbons-10_">
+	<div style="color: #FFF;padding-left: 100px; font-size: 40px;font-weight: bold;padding-top: 20px"><{$xoops_sitename}></div>
+	<div style="color: #FFF;padding-left: 300px; margin-top: -15px;"><h4><{$xoops_slogan}></h4></div>
+	</div>
+</div>
+      		</td>
+    		</tr>
+  		</table>
+  		<table class="maintable" cellspacing="0">
+    		<tr>
+      <td id="centercolumn">
+        <!-- Display center blocks if any -->
+        <{if $xoops_showcblock == 1}>
+        <table cellspacing="0">
+		<tr>
+			<td id="centerLcolumn">		
+			<!-- Start center-left blocks loop -->
+			<{foreach item=block from=$xoops_clblocks}>
+    <div class="blockTitle"><{$block.title}></div>
+    <div class="blockContent"><{$block.content}></div>
+<img src="<{$xoops_imageurl}>visual/ribbons-cl_03.jpg" width="328" height="11" alt="" />
+			<{/foreach}>
+			<!-- End center-left blocks loop -->
+			</td>
+			<td id="centerRcolumn">		
+			<!-- Start center-right blocks loop -->
+			<{foreach item=block from=$xoops_crblocks}>
+    <div class="blockTitle"><{$block.title}></div>
+    <div class="blockContent"><{$block.content}></div>
+<img src="<{$xoops_imageurl}>visual/ribbons-cl_03.jpg" width="328" height="11" alt="" />
+			<{/foreach}>
+			<!-- End center-right blocks loop -->
+			</td>
+		</tr>
+		<tr>
+			<td id="centerCcolumn" colspan="2">
+			<!-- Start center-center blocks loop -->
+			<{foreach item=block from=$xoops_ccblocks}>
+    <div class="blockTitle"><{$block.title}></div>
+    <div class="blockContent"><{$block.content}></div>
+<img src="<{$xoops_imageurl}>visual/ribbons-cc_03.jpg" width="676" height="21" alt="" />
+<br />
+			<{/foreach}>
+			<!-- End center-center blocks loop -->
+			</td>
+		</tr>
+        </table>
+        <{/if}>
+        <!-- End display center blocks -->
+       <{if $xoops_contents}>
+        <div id="content">
+          <{$xoops_contents}>
+        </div>
+       <{/if}>
+        <{if $xoBlocks.page_bottomleft or $xoBlocks.page_bottomright or $xoBlocks.page_bottomcenter}>
+        <table cellspacing="0">
+		<{if $xoBlocks.page_bottomleft or $xoBlocks.page_bottomright}>
+		<tr>
+			<td id="bottomLcolumn">
+				<{foreach from=$xoBlocks.page_bottomleft item=block}>
+    <div class="blockTitle"><{$block.title}></div>
+    <div class="blockContent"><{$block.content}></div>
+<img src="<{$xoops_imageurl}>visual/ribbons-cl_03.jpg" width="328" height="11" alt="" />
+				<{/foreach}>
+			</td>
+			<td id="bottomRcolumn">
+				<{foreach from=$xoBlocks.page_bottomright item=block}>
+    <div class="blockTitle"><{$block.title}></div>
+    <div class="blockContent"><{$block.content}></div>
+<img src="<{$xoops_imageurl}>visual/ribbons-cl_03.jpg" width="328" height="11" alt="" />
+				<{/foreach}>
+			</td>
+		</tr>
+        <{/if}>
+        <{if $xoBlocks.page_bottomcenter}>
+		<tr><td id="bottomCcolumn" colspan="2">
+			<{foreach from=$xoBlocks.page_bottomcenter item=block}>
+    <div class="blockTitle"><{$block.title}></div>
+    <div class="blockContent"><{$block.content}></div>
+<img src="<{$xoops_imageurl}>visual/ribbons-cc_03.jpg" width="676" height="21" alt="" />
+			<{/foreach}>
+			</td>
+		</tr>
+		<{/if}>
+        </table>
+        <{/if}>
+      </td>
+      <td id="rightcolumn">
+<div class="target"><{if $xoops_isuser == 1}>
+<a href="<{$xoops_url}>/user.php" title="<{$block.lang_youraccount}>" />&nbsp;<img id="imgz" src="<{$xoops_imageurl}>visual/identity.gif" width="15" height="15" title="Your Account" />&nbsp;Your Account</a><br class="pan" />
+<a href="<{$xoops_url}>/viewpmsg.php" title="<{$block.lang_inbox}>" />&nbsp;<img id="imgz" src="<{$xoops_imageurl}>visual/inbox.gif" width="15" height="15" title="Inbox" />&nbsp;Messages</a><br class="pan" />
+<a href="<{$xoops_url}>/notifications.php" title="<{$block.lang_notifications}>" />&nbsp;<img id="imgz" src="<{$xoops_imageurl}>visual/alarm.gif" width="15" height="15" title="Notifications" />&nbsp;Notifications</a><br class="pan" />
+<a href="<{$xoops_url}>/edituser.php" title="<{$block.lang_editaccount}>" />&nbsp;<img id="imgz" src="<{$xoops_imageurl}>visual/euser.gif" width="15" height="15" title="Edit Account" />&nbsp;Edit Account</a><br class="pan" />
+<a href="<{$xoops_url}>/user.php?op=logout" title="<{$block.lang_logout}>" />&nbsp;<img id="imgz" src="<{$xoops_imageurl}>visual/logout.gif" width="15" height="15" title="Logout" />&nbsp;Logout</a><br class="pan" />
+<{/if}>
+<{if $xoops_isadmin == 1}>
+<a href="<{$xoops_url}>/admin.php" title="<{$block.lang_youraccount}>" />&nbsp;<img id="imgz" src="<{$xoops_imageurl}>visual/config.gif" width="15" height="15" title="Administration" />&nbsp;Administration</a>
+<{/if}>
+<{if $xoops_isuser == 0}>
+	<div style="margin-left: auto; margin-right: auto;top: 7px;width:220px;">
+			<form action="<{$xoops_site}>/user.php" method="post">
+	<div style="text-align: left;font-weight: bold;padding-left:5px;">Username:<br /></div>
+	<div style="text-align: left;font-weight: bold;padding-left:5px;"> <input type="text" name="uname" size="17" maxlength="25" value="<{$usercookie}>" /><br /></div>
+	<div style="text-align: left;font-weight: bold;padding-top: 3px;padding-left:5px;">Password:<br /></div>
+<div style="text-align: left;font-weight: bold;padding-left:5px;">	 <input type="password" name="pass" size="17" maxlength="32" /></div>
+<div style="text-align: right;font-weight: bold;float: right;margin-top: -17px"> <input type="submit" value="Login" /></div>
+			    <{if $rememberme }>    
+			    	<input type="checkbox" name="rememberme" value="On" />Remember me   
+			    <{/if}>
+			    <input type="hidden" name="op" value="login" />
+		    	<input type="hidden" name="xoops_redirect" value="<{$redirect_page}>"/>
+		 			</form>
+<div class="rec">		
+		<div style="text-align: left; width: 30px;margin-top: -20px;"><a href="<{$xoops_site}>/user.php#lost" title="Recover Password"><img src="<{$xoops_imageurl}>visual/recover.gif" width="25" height="25" title="Recover Password" alt="Recover Password" /></a>
+				</div>
+				<div style="text-align: right;float: right;margin-top: -24px; width: 30px">
+				<a href="<{$xoops_site}>/register.php" title="Register an Account"><img src="<{$xoops_imageurl}>visual/add_user.gif" width="25" height="25" title="Register an Account" alt="Register an Account" /></a>
+				</div>
+	</div>
+</div>
+<{/if}>
+</div><p class="slide"><{if $xoops_isuser == 1}>User Menu<{/if}><{if $xoops_isuser == 0}>User Login<{/if}></p>
+ <br />
+      <!-- Start left blocks loop -->
+        <{foreach item=block from=$xoops_lblocks}>
+    <div class="blockTitle"><{$block.title}></div>
+    <div class="blockContent"><{$block.content}></div>
+<img src="<{$xoops_imageurl}>visual/ribbons-rc_03.jpg" width="232" height="8" alt="" />
+<br /><br />
+        <{/foreach}>
+        <!-- End left blocks loop -->
+        <!-- Start right blocks loop -->
+        <{foreach item=block from=$xoops_rblocks}>
+    <div class="blockTitle"><{$block.title}></div>
+    <div class="blockContent"><{$block.content}></div>
+<img src="<{$xoops_imageurl}>visual/ribbons-rc_03.jpg" width="232" height="8" alt="" />
+<br /><br />
+        <{/foreach}>
+        <!-- End right blocks loop -->
+      </td>
+    </tr>
+  </table>
+
+  		<table class="footertable" cellspacing="0">
+    		<tr>
+          		<td id="footerbar">
+					<{$xoops_footer}>
+				</td>
+    		</tr>
+  		</table>
+<div class="license">
+<div><a rel="cc:attributionURL" href="http://www.aphexthemes.com">Aphex's Themes</a> / <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.0/uk/">CC BY-NC-ND 2.0</a></div>	</div>
+</body>
+</html>
